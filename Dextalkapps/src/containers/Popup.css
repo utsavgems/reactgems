@@ -1,0 +1,131 @@
+/* POP UP */
+.vcstart-popup {
+  top: 80px;
+  width: 25%;
+  right: 85px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px solid #9999c3;
+  background-color: #1f1f25;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.vcstart-popup-content {
+  padding: 20px;
+}
+
+.vcstart-popup-email {
+  margin: 25px 0 0 0;
+}
+.popup-close-btn {
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: red;
+}
+.vcstart-popup-text {
+  align-items: center;
+  display: flex;
+}
+p.vcstart-popup-title {
+  margin: 0px 0 0 8px;
+  font-size: 18px;
+}
+.vcstart-popup-para {
+    font-size: 16px;
+  color: #b2c3ff;
+}
+input.vcstart-popup-email-input:focus-visible {
+  outline: none;
+}
+input.vcstart-popup-email-input {
+  border: none;
+  color: white;
+  height: 45px;
+  width: 85%;
+  font-size: 16px;
+  border-radius: 6px;
+  background: #5b5b78;
+  padding: 10px 10px 10px 15px;
+}
+.vcstart-popup-sendicon {
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+  background: #4f4cff;
+  margin: 0 0 0 4px;
+  padding: 9px 10px 7px 12px;
+}
+button.vcstart-popup-copybtn {
+  background: transparent;
+  border: none;
+}
+.vcstart-popup-id {
+  display: flex;
+  margin: 15px 0 0 0;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px dotted #5a609c;
+}
+p.vcstart-popup-userid {
+  margin: 0;
+  height: 45px;
+  font-size: 18px;
+  padding: 10px 10px 7px 12px;
+}
+img.vcstart-popup-copyicn {
+  height: 30px;
+  margin: 0 6px 0px 0;
+}
+.vcstart-popup-userdetails {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 14px;
+  justify-content: space-between;
+}
+.vcstart-popup-detail {
+  align-items: center;
+  display: flex;
+}
+.vcstart-popup-userdetails2 {
+  display: flex;
+  margin: 15px 0 0 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.vcstart-popup-user-text2 {
+  width: 82px;
+  padding: 6px;
+  border-radius: 10px;
+  background: #404352;
+  border: 1px solid #404352;
+}
+.vcstart-popup-user-pic {
+  width: 45px;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 0 10px 0 0;
+  background: #404352;
+  border: 1px solid #404352;
+}
+.vcstart-popup-title2 {
+  font-weight: 700;
+  margin: 0 0 30px 0;
+  font-size: 18px;
+}
+.vcstart-popup-sec-2 {
+  margin: 30px 0 0 0;
+}
+p.vcstart-popup-username {
+  font-weight: 600;
+  margin: 0 0 0 5px;
+}
+p.vcstart-popup-addbtn {
+  color: #abaeff;
+  cursor: pointer;
+  font-weight: 600;
+}

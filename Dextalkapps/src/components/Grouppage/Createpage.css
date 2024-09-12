@@ -1,0 +1,133 @@
+.createpage-container {
+  width: 100%;
+  display: flex;
+  color: white;
+  text-align: center;
+  background: #2d2e36;
+  justify-content: center;
+}
+.createpage-title {
+  color: #b2c3ff;
+  font-weight: 700;
+  font-size: 26px;
+}
+.createpage-para {
+  margin: 10px 0 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.createpage-card2,
+.createpage-card1 {
+  padding: 13px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #484863;
+}
+
+.createpage-card1 {
+  display: flex;
+  justify-content: space-between;
+}
+.createpage-card2 {
+  display: flex;
+  margin: 30px 0 0 0;
+  justify-content: space-between;
+}
+.createpage-card {
+  width: 30%;
+  top: 180px;
+  position: absolute;
+  padding: 42px;
+  border-radius: 10px;
+  background: #1f1f25;
+}
+
+p.createpage-card-text1 {
+  align-items: center;
+  font-size: 18px;
+  display: flex;
+}
+.createpage-section2 {
+  margin: 40px 0 0 0;
+}
+
+/* FORM CSS  */
+.createpage-form-text {
+  color: #b2c3ff;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.createpage-form-sec1 {
+    padding: 32px 45px 0px 45px;
+}
+.form-container {
+  top: 100px;
+  width: 30%;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  height: fit-content;
+  background: #1f1f25;
+  justify-content: center;
+}
+
+.createpage-form-para {
+    font-size: 18px;
+}
+
+img.createpage-form-img {
+    padding: 60px;
+    border-radius: 80px;
+    background: #B3B3CA;
+}
+img.createpage-form-pluseimg {
+    padding: 7px;
+    right: 180px;
+    position: absolute;
+    border-radius: 20px;
+    background: #6474FF;
+}
+.createpage-form-sec2 {
+    margin: 25px 0 0px 0;
+}
+.createpage-form-inputfiled {
+    margin: 35px 0 35px 0;
+}
+input.createpage-form-input {
+    width: 370px;
+    padding: 15px 0 15px 25px;
+    outline: none;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px dashed #585880;
+}
+hr.createpage-form-vertical-line {
+    border: 1px solid #ababfd0f;
+}
+button.createpage-form-backbtn {
+    border: none;
+    width: 135px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 6px;
+    background: #2D2E36;
+}
+button.createpage-form-Nextbtn {
+    border: none;
+    width: 250px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 6px;
+    background: #3B1BFF;
+}
+.createpage-form-sec3 {
+    display: flex;
+    padding: 0 40px 10px 40px;
+    justify-content: space-between;
+}

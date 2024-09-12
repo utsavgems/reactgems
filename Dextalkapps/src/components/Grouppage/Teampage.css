@@ -1,0 +1,254 @@
+.Teampage-layout {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw;  /* Full width of the viewport */
+    margin: 0;     /* Remove default margin */
+    padding: 0;    /* Remove default padding */
+  }
+  
+  .Teampage-left-sidebar {
+    width: 352px;  /* Fixed width for the sidebar */
+    background-color: #25262F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  .Teampage-section-1, .Teampage-section-2, .Teampage-section-3 {
+    width: 100%;
+  }
+  
+  .Teampage-icn-tex {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: -20px 0 0 22px;
+  }
+  
+  img.Teampage-teamicon {
+    padding: 12px;
+    border-radius: 35px;
+    background: #4D4F64;
+  }
+  
+  .Teampage-genrate-text {
+    margin: 0 0 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  input.Teampage-search-input {
+    border: none;
+    width: 305px;
+    padding: 12px;
+    outline: none;
+    border-radius: 8px;
+    background: #9ea7f026;
+    margin: 25px 0 0 22px;
+  }
+  
+  .Teampage-section-2 {
+    width: 302px;
+  }
+  
+  .Teampage-sec2-text {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+    justify-content: space-between;
+  }
+  
+  .Teampage-sidebar-chaticon .Teampage-user-details {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 10px 0px  4px 0px;
+    cursor: pointer; /* Add pointer cursor to indicate it's clickable */
+  }
+  
+  .Teampage-user-details1,
+  .Teampage-user-details2,
+  .Teampage-user-details3,
+  .Teampage-user-details4 {
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  
+  .Teampage-green-dots {
+    left: 37px;
+    bottom: 20px;
+    padding: 6px;
+    z-index: 9999;
+    position: relative;
+    border-radius: 10px;
+    background: #2FFF82;
+    border: 1px solid #2FFF82;
+  }
+  
+  .Teampage-grey-dots {
+    left: 37px;
+    bottom: 20px;
+    padding: 6px;
+    z-index: 9999;
+    position: relative;
+    border-radius: 10px;
+    background: #545669;
+    border: 1px solid #545669;
+  }
+  
+  .Teampage-username {
+    margin: 0px 0px 0px 10px;
+  }
+  
+  img.Teampage-userpic {
+    width: 45px;
+    padding: 4px;
+    border-radius: 20%;
+    background: #A9FF53;
+    margin: 0px 5px 0px -13px;
+  }
+  
+  .Teampage-blank-userpic {
+    width: 45px;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 10px 0 0;
+    background: #404352;
+    border: 1px solid #404352;
+  }
+  
+  .Teampage-username-blank {
+    width: 82px;
+    padding: 6px;
+    border-radius: 10px;
+    background: #404352;
+    border: 1px solid #404352;
+  }
+  
+  .Teampage-section-3 {
+    top: 70px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  button.Teampage-setting-btn,
+  button.Teampage-members-btn {
+    width: 275px;
+    padding: 12px;
+    color: #9DB9FF;
+    border-radius: 8px;
+    margin: 0 0 15px 0px;
+    background: transparent;
+    border: 1px solid #9DB9FF;
+  }
+  
+  .Teampage-chat-window {
+    flex: 1;       
+    background-color: #25262F;
+    display: none; /* Hide by default */
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .Teampage-chat-window.open {
+    -ms-flex: 1 1;
+    flex: 1 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: end;
+    width: 94%;
+    margin: 0 auto;
+    overflow-y: scroll;
+  }
+  input.Teampage-input-field {
+      width: 77%;
+      border: none;
+      outline: none;
+      color: white;
+      margin: 0 0 0 25px;
+      background: transparent;
+}
+p.Teampage-date {
+    top: 90px;
+    right: 485px;
+    color: white;
+    position: absolute;
+}
+button.Teampage-send-btn {
+    width: 80px;
+    padding: 9px;
+    color: white;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid white;
+}
+.Teampage-chat-input {
+    width: 92%;
+    padding: 8px;
+    display: flex;
+    border-radius: 35px;
+    margin: 15px 20px 12px 10px;
+    border: 1px solid grey;
+    justify-content: space-between;
+}
+.Teampage-text-A {
+    left: 518px;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    border-radius: 10px;
+    background: #2D2D2D;
+    padding: 8px 16px 8px 16px;
+}
+.Teampage-message1 {
+    position: relative;
+    padding: 15px 15px 15px 25px;
+    color: white;
+    background: #5E50FF;
+    right: 91rem;
+    width: 100px;
+    border-radius: 0px 25px 25px 25px;
+}
+.Teampage-messages,
+p.Teampage-message2 {
+    margin: 0 30px 0px 0;
+    border-radius: 25px 0px 25px 25px;
+    padding: 15px 15px 15px 25px;
+    background: white;
+}
+p.Teampage-text-pluse {
+    top: 61px;
+    left: -85rem;
+    z-index: 9999;
+    width: fit-content;
+    background: white;
+    position: relative;
+    padding: 0px 6px 2px 6px;
+    border-radius: 31px;
+}
+.Teampage-details {
+    margin: 0 5px 0 0;
+}
+img.Teampage-picture-icon{
+    filter: invert(1);
+}
+img.Teampage-picture-icon,
+img.Teampage-smile-icon {
+    height: 40px;
+}
+hr.Teampage-vertical-line {
+    margin: 0;
+    width: 1px;
+    height: 38px;
+    background: white;
+}

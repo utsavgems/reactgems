@@ -1,0 +1,47 @@
+.User {
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.User:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
+.User__pic {
+  
+  width: 45px;
+  padding: 4px;
+  border-radius: 20%;
+  background: #535AFF;
+  margin: 0px 5px 0px  -13px;
+}
+p.User__details-status{
+  font-size: 14px;
+  color: white;
+}
+p.User__details-name {
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+}
+.calling-icon {
+  margin: 0 0 0 175px;
+}
+
+/* not small devices*/
+@media (min-width: 576px) {
+  .User__details {
+    display: block;
+    padding: 0 0 0 1rem;
+  }
+
+  .User__details-name {
+    margin: 0;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+

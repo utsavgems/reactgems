@@ -1,0 +1,496 @@
+@media (min-width: 1199px) {
+  a:hover {
+    color: #1c1cff;
+  }
+}
+@media (max-width: 1600px) {
+  .header-inr {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .fs-40 {
+    font-size: 38px;
+  }
+  .fs-60 {
+    font-size: 54px;
+  }
+}
+@media (max-width: 1499px) {
+}
+@media (max-width: 1399px) {
+}
+@media (max-width: 1299px) {
+}
+@media (max-width: 1199px) {
+  .fs-40 {
+    font-size: 34px;
+  }
+  .fs-60 {
+    font-size: 48px;
+  }
+  .btn {
+    padding: 15px 20px;
+    min-width: 160px;
+  }
+  .header-nav ul li {
+    margin-right: 26px;
+  }
+  .personal-cloud-sec.common-sec {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .personal-cloud-sec .shadow-2 {
+    width: 231px;
+  }
+  .personal-cloud-con,
+  .discover-amazing-con {
+    position: relative;
+  }
+  .discover-amazing-boxes .row {
+    --bs-gutter-x: 25px;
+  }
+  .build-home-box {
+    min-height: 117px;
+  }
+  .install-boxes .row {
+    --bs-gutter-x: 28px;
+  }
+  .navigation-dock-box-2 .navigation-dock-img img {
+    margin-top: 50px;
+  }
+  .superpowers-box {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+  }
+  .superpowers-box-img {
+    margin-right: -140px;
+  }
+  .democratizing-sec {
+    padding-left: 12px;
+  }
+  .democratizing-con {
+    margin-right: 20px;
+  }
+  .footer-links li + li {
+    margin-left: 47px;
+  }
+}
+@media (max-width: 991px) {
+  body.nav-open {
+    overflow: hidden;
+  }
+  .header-nav-inr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #b9d6f7;
+    width: 49vw;
+    flex-direction: column;
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in-out;
+  }
+  .nav-open .header-nav-inr {
+    transform: translateX(0%);
+  }
+  .header-nav-inr .header-logo {
+    margin-bottom: 15px;
+  }
+  .header-nav ul li {
+    display: block;
+    margin-right: 0;
+  }
+  .header-nav ul li a {
+    display: block;
+    padding: 18px 0;
+    font-size: 30px;
+    border-bottom: 1px solid #0000002b;
+  }
+  .header-nav ul li:last-child a {
+    border-bottom: none;
+  }
+  .header-nav-toggle-btn {
+    position: relative;
+    height: 35px;
+    z-index: 111;
+    background-color: transparent;
+    width: 35px;
+    padding: 0;
+    margin-left: 15px;
+  }
+  .header-nav-toggle-btn span {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    right: 0;
+    display: block;
+    padding: 0;
+    width: 35px;
+    height: 2px;
+    background-color: #000;
+    font-size: 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    margin: auto;
+    margin-top: 2px;
+  }
+  .header-nav-toggle-btn span:before,
+  .header-nav-toggle-btn span:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+  }
+  .header-nav-toggle-btn span:after {
+    -webkit-transform: translateY(250%);
+    transform: translateY(250%);
+    -moz-transform: translateY(250%);
+    -ms-transform: translateY(250%);
+    top: 4px;
+  }
+  .header-nav-toggle-btn span:before {
+    -webkit-transform: translateY(-250%);
+    transform: translateY(-250%);
+    -moz-transform: translateY(-250%);
+    -ms-transform: translateY(-250%);
+    top: -4px;
+  }
+  .nav-open .header-nav-toggle-btn span {
+    -webkit-background: none;
+    -moz-background: none;
+    -ms-background: none;
+    -o-background: none;
+    background: none;
+  }
+  .nav-open .header-nav-toggle-btn span:before {
+    -webkit-transform: translateY(0) rotate(45deg);
+    -moz-transform: translateY(0) rotate(45deg);
+    -ms-transform: translateY(0) rotate(45deg);
+    transform: translateY(0) rotate(45deg);
+    top: 0px;
+    background: #fff;
+  }
+  .nav-open .header-nav-toggle-btn span:after {
+    -webkit-transform: translateY(0) rotate(-45deg);
+    -moz-transform: translateY(0) rotate(-45deg);
+    -ms-transform: translateY(0) rotate(-45deg);
+    transform: translateY(0) rotate(-45deg);
+    top: 0px;
+    background: #fff;
+  }
+  .nav-open .nav-overlay {
+    z-index: 11;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .personal-cloud-con {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .personal-cloud-happy-clients-wrap {
+    position: unset;
+    justify-content: center;
+  }
+  .discover-amazing-con {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .build-home-con {
+    max-width: unset;
+  }
+  .build-home-con .sec-head {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .appstore-con {
+    text-align: center;
+  }
+  .install-box {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 550px;
+  }
+  .install-box.box-1 {
+    margin-bottom: 50px;
+  }
+  .navigation-dock-sec.common-sec {
+    padding-bottom: 0;
+  }
+  .navigation-dock-box-2 .navigation-dock-img img {
+    margin-top: -160px;
+  }
+  .navigation-dock-box-1,
+  .navigation-dock-box-2,
+  .navigation-dock-box-3 {
+    padding: 40px;
+  }
+  .superpowers-box-img {
+    margin-right: -20px;
+  }
+  .democratizing-con {
+    margin-right: 0;
+    max-width: 100%;
+    margin-left: unset;
+    margin-bottom: 50px;
+  }
+  .democratizing-sec {
+    padding-right: 12px;
+  }
+  .footer-links li + li {
+    margin-left: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .common-sec {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .fs-16 {
+    font-size: 14px;
+  }
+  .fs-18 {
+    font-size: 16px;
+  }
+  .fs-20 {
+    font-size: 18px;
+  }
+  .fs-22 {
+    font-size: 18px;
+  }
+  .fs-26 {
+    font-size: 22px;
+  }
+  .fs-40 {
+    font-size: 26px;
+  }
+  .fs-60 {
+    font-size: 32px;
+  }
+  .btn {
+    padding: 12px 17px;
+    min-width: 150px;
+    font-size: 16px;
+  }
+  .slick-dots {
+    display: none;
+    margin-top: 10px;
+  }
+  .slick-dots button {
+    height: 15px;
+  }
+  .sec-head p {
+    margin-top: 15px;
+    line-height: 1.3;
+  }
+  .header-text {
+    display: none;
+  }
+  .is-sticked .header {
+    transform: translateY(0);
+  }
+  .header-nav-inr {
+    width: 340px;
+  }
+  .header-nav ul li a {
+    padding: 14px 0;
+    font-size: 24px;
+  }
+  .personal-cloud-sec.common-sec {
+    padding-top: 117px;
+  }
+  .personal-cloud-con .sec-head .sec-sub-title {
+    line-height: 1.2;
+  }
+  .personal-cloud-happy-clients-img img {
+    max-height: 70px;
+  }
+  .star {
+    max-width: 50px;
+  }
+  .discover-amazing-con {
+    margin-bottom: 20px;
+  }
+  .discover-amazing-sec .pattern-1 {
+    max-width: 250px;
+  }
+  .discover-amazing-box + .discover-amazing-box {
+    margin-top: 25px;
+  }
+  .discover-amazing-box {
+    margin-top: 25px;
+    padding-right: 130px;
+  }
+  .build-home-box {
+    min-height: unset;
+    width: 100%;
+    min-width: 100%;
+  }
+  .build-home-img::before {
+    bottom: 10px;
+  }
+  .build-home-img::after {
+    bottom: 2px;
+  }
+  .appstore-search {
+    padding-left: 10px;
+    display: grid;
+
+  }
+  .appstore-search .btn {
+    min-width: 240px;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .appstore-search .form-control {
+    padding-left: 38px;
+  }
+  .btn + .btn {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  /* a.btn.btn-black.Dappstorsos-btn {
+    margin-top: 0;
+    margin-left: 16px;
+} */
+  .rasberrypie-box-img {
+    margin-left: 150px;
+  }
+  .header-logo{
+    margin: 0;
+  }
+  .install-box-for {
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    column-gap: 15px;
+  }
+  .navigation-dock-box-1,
+  .navigation-dock-box-2,
+  .navigation-dock-box-3 {
+    padding: 20px;
+  }
+  .navigation-dock-img img {
+    margin-top: 40px;
+  }
+  .navigation-dock-box-2 .navigation-dock-img img {
+    margin-top: -40px;
+  }
+  .navigation-dock-box-3 .appstore-search .form-control {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navigation-dock-box-3 .appstore-search .btn {
+    /* display: none; */
+  }
+  .partners-box-img {
+    min-height: 356px;
+  }
+  .partners-box-img img {
+    max-width: 200px;
+  }
+  .install-box .btn + .btn {
+    margin-top: 0;
+    margin-left: 5px;
+  }
+  .superpowers-boxes .row {
+    --bs-gutter-y: 30px;
+  }
+  .superpowers-box {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+  .superpowers-box-con {
+    max-width: 174px;
+  }
+  .superpowers-box-img {
+    margin-right: -100px;
+  }
+  .footer-links {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .footer-links li {
+    display: block;
+  }
+  .footer-links li + li {
+    margin-left: 0;
+    margin-top: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .appstore-boxes{
+    scrollbar-width: none;
+    overflow: auto;
+  }
+  .democratizing-img .star{
+  bottom: -50px;
+  }
+  .open-community-img .star:nth-child(2) {
+bottom: -20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .rasberrypie-box-img {
+    margin-left: 120px;
+  }
+}
+
+/***** Mobile devices *****/
+@media screen and (min-width: 320px) and (max-width:480px){
+  .install-box-for-img {
+    margin-left: 120px;
+  }
+}
+
+/***** iPads, Tablets devices *****/
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .rasberrypie-box-img {
+    margin-left: 230px;
+  }
+}
+
+/***** Small screens, laptops devices *****/
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .rasberrypie-box-img {
+    margin-left: 230px;
+  }
+}
+
+/***** Desktops, large screens devices *****/
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+  .rasberrypie-box-img {
+    margin-left: 230px;
+  }
+}
+
+/***** Extra large screens devices *****/
+@media screen and (min-width: 1201px) and (max-width: 2000px){
+  .rasberrypie-box-img {
+    margin-left: 230px;
+  }
+}

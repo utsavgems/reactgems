@@ -1,0 +1,124 @@
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  
+  .closed-btn {
+    position: relative;
+    top: 53px;
+    left: 115px;
+  }
+.Sidebar.closed{
+    overflow: visible;
+    height: 70.5rem;
+}
+  .Sidebar {
+    width: auto;
+    overflow: visible;
+    height: 86rem;
+  }
+  .Empty {
+    display: flex;
+  }
+  .mode_btn.close {
+    bottom: 40px;
+      }
+}
+
+@media only screen and (width:360) {
+    .Sidebar.closed{
+        overflow: visible;
+        height: 70rem;
+    }
+    .Sidebar {
+        width: auto;
+        overflow: visible;
+        height: 99.2rem;
+    }
+    .mode_btn.close {
+      top: 730px;
+        }
+}
+
+@media screen and (min-width: 376px) and (max-width: 413px) {
+  .closed-btn {
+    position: relative;
+    top: 53px;
+    left: 115px;
+  }
+  .Sidebar.closed{
+    overflow: visible;
+    height: 92rem;
+}
+  .Sidebar {
+    width: auto;
+    overflow: visible;
+    height: 104.5rem;
+  }
+  .Empty {
+    display: flex;
+  }
+  .mode_btn.close {
+    top: 720px;
+      }
+}
+@media screen and (min-width: 414px) and (max-width: 480px) {
+    .closed-btn {
+        position: relative;
+        top: 53px;
+        left: 115px;
+      }
+      .Sidebar.closed{
+        overflow: visible;
+        height: 93rem;
+    }
+      .Sidebar {
+        width: auto;
+        overflow: visible;
+        height: 104.5rem;
+      }
+      .Empty {
+        display: flex;
+      }
+      .mode_btn.close {
+       top: 720px;
+          }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .closed-btn {
+    position: relative;
+    top: 8px;
+    left: 10px;
+  }
+  .mode_btn.close {
+    bottom: 50px;
+      }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .mode_btn.close {
+    bottom: 50px;
+      }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .mode_btn.close {
+    bottom: 50px;
+      }
+}
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+  .mode_btn.close {
+    bottom: 50px;
+      }
+}
+@media screen and (min-width: 1442px) and (max-width: 1520px) {
+  .mode_btn.close {
+    bottom: 90px;
+      }
+}
+@media screen and (min-width: 1521px) and (max-width: 2000px) {
+  .mode_btn.close {
+    bottom: 90px;
+      }
+}
+@media screen and (min-width: 2001px) and (max-width: 2500px) {
+  .mode_btn.close {
+    bottom: 90px;
+      }
+}

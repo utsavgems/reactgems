@@ -1,0 +1,52 @@
+.Message {
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.Message__input {
+  width: 100%;
+  padding: 10px 0px 10px 31px;
+  /* background: rgba(0, 0, 0, 0.8); */
+  color: black;
+  border: 1px solid grey;
+  border-radius: 35px;
+  font-size: 20px;
+  outline: 0;
+}
+h6.sendicon {
+  font-weight: 700;
+  border: 1px solid #ababab;
+  border-radius: 35px;
+  font-size: 22px;
+  margin: -5px -47px 1px 1px;
+  padding: 6px 20px 8px 20px;
+}
+.inputicons {
+  margin: -56px 54px 0 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.vertical-line-input {
+  border-left: 1px solid rgb(175 175 175);
+  height: 34px;
+  margin: 14px 8px 20px 6px;
+}
+.sendbtn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+img.pictureicon {
+  width: 35px;
+  margin: 0 8px 6px 10px;
+}
+.gificon {
+    width: 35px;
+    margin: 0 8px 6px 10px;
+}
+img.smileicon {
+  width: 35px;
+  margin: 0 10px 7px 0px;
+}
+

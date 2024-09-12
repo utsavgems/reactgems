@@ -1,0 +1,137 @@
+.Header {
+  margin: 8px 0 0 0;
+  padding: 0rem 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.Header__name {
+  color: #000000;
+}
+
+.header_section{
+  height: 50px;
+  display: flex;
+  margin: 4px 0 0 0;
+}
+.header_text{
+  margin: -5px 0 0 10px;
+  display: block;
+}
+img.person-icon {
+  width: 35px;
+  /* filter: invert(1); */
+}
+.header_containt{
+  display: flex;
+  justify-content: space-between;
+}
+.iconsgroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.verticals_icons {
+  margin: 0 20px 0 0;
+}
+.camera_icons {
+  margin: 0 20px 0 0;
+}
+.walleticons{
+  margin: 0 20px 0 0;
+}
+.header_person {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #212121;
+  justify-content: center;
+  padding: 0px 8px 0px 8px;
+}
+.header_left_icons {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background:#cfcdcd;
+  margin: 0px 10px 0px 0;
+  justify-content: center;
+  padding:0px 16px 0px 16px;
+  border: 1px sold #303030;
+}
+p.Header__status {
+  color: green;
+  font-weight: 700;
+  margin: -8px 1px 0px 5px;
+}
+.online_statu {
+  display: flex;
+  align-items: center;
+}
+.header-green-dots {
+  padding: 6px;
+  background: green;
+  border-radius: 10px;
+  border: 1px solid green;
+  margin: -10px -3px 0px 0px;
+}
+.vertical-line-header {
+  height: 82px;
+  margin:-18px 22px 0px 1px;
+  border-left: 1px solid rgb(175 175 175);
+}
+
+
+.Header {
+  position: relative;
+}
+
+.header_containt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header_person {
+  cursor: pointer;
+}
+
+.right-panel {
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 330px;
+  z-index: 1000; 
+  position: fixed;
+  border-radius: 14px;
+  background-color: #fff; 
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.right-panel.open {
+  transform: translateX(0);
+}
+img.rightside-three-img2 {
+  left: 28px;
+  bottom: 45px;
+  position: relative;
+}
+button.rightside-three-close-button {
+  border: none;
+  position: absolute;
+  background: transparent;
+}
+.rightside-three-nametxt {
+  font-weight: 600;
+  margin: 0 0 0 20px;
+}
+.rightside-three-user-details {
+  display: flex;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 10px 10px 0 20px;
+  justify-content: space-between;
+}

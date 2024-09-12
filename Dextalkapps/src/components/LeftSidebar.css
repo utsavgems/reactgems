@@ -1,0 +1,313 @@
+/* LeftSidebar.css */
+.container_leftslider {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 80px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.content_leftsidebar {
+  background: #362e40;
+  border-radius: 10px;
+  flex: 1;
+  margin: 0 0 0 5px;
+  /* padding: 20px; */
+  width: max-content;
+}
+
+.sidebar-right {
+  width: 250px;
+  background-color: #666;
+  color: white;
+  padding: 10px;
+  display: none;
+}
+
+.sidebar-toggle {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #555;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar-close {
+  width: 100%;
+  padding: 10px;
+  background-color: #888;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.aside_section {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: #2D2E36;
+}
+.profile_image {
+  background: white;
+  margin: 10px 4px 10px 0px;
+  border-radius: 10px;
+  padding: 15px 0px 15px 18px;
+}
+.open-btn {
+  display: none;
+}
+.sidebar-callicons{
+  cursor: pointer;
+}
+.telephonic_icons {
+  margin: 20px 0 0px 10px;
+}
+.doller_sign_icons {
+  margin: 20px 0 0 10px;
+}
+.slide-vertical-line {
+  position: absolute;
+  border-radius: 10px;
+  width: 5px;
+  color: white;
+  background: white;
+  bottom: 274px;
+  height: 30px;
+}
+.pluse_icons {
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0 4px 0 1px;
+  background: #3b3b4e;
+  padding: 15px 0px 15px 18px;
+}
+.search_input {
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 8px;
+  background: #3b3b4e;
+  margin: 15px 10px 0px 15px;
+  padding: 12px 145px 12px 10px;
+}
+button.button-style {
+  border-radius: 8px;
+  margin: 0 15px 0 0;
+  padding: 8px;
+  border: none;
+  background: #3b3b4e;
+}
+.theme_squer_icon {
+  margin: 10px 0px 0px 3px;
+}
+img.theme_icon {
+  border-radius: 10px;
+}
+.sidebar_sec2 {
+  display: flex;
+  align-items: center;
+  margin: 25px 0 15px 0;
+  justify-content: space-between;
+}
+.personbody_icon {
+  display: flex;
+  margin: 0 90px 0 0;
+  align-items: center;
+}
+.addnew_btn {
+  cursor: pointer;
+  margin: 0 20px 0 0;
+  text-decoration: underline;
+}
+.sec-2.friendtext {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
+.bodytypeicons {
+  height: 22px;
+  margin: 0 8px 0 8px;
+  color: white;
+}
+.white_text {
+  color: white;
+}
+
+.setting-icon {
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  top: 35%;
+}
+.sidebar-bottomside {
+  top: 53%;
+  width: 90%;
+  display: flex;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  margin: 0px 0 0 20px;
+  border: 1px solid grey;
+  justify-content: space-between;
+  padding: 15px 0 15px 15px;
+}
+.sidebar-calling-section {
+  display: flex;
+}
+.user-calling-dp {
+  font-size: 22px;
+  font-weight: 800;
+  border-radius: 10px;
+  background: #454545;
+  padding: 7px 14px 6px 14px;
+}
+img.frequencyicon {
+  width: 22px;
+}
+.user-text-section {
+  margin: 0 0px 0px 6px;
+}
+.user-calling-name {
+  font-weight: 800;
+}
+.sldierbottom_icons_group {
+  display: flex;
+  margin: 0 10px 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+img.callcuticon {
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+  background: white;
+  width: 35px;
+}
+.icons-space {
+  cursor: pointer;
+  margin: 0px 12px 0 0;
+}
+
+/* POPUP CSS  */
+.popup.userpage {
+  top: 190px;
+  left: 95px;
+  z-index: 9999;
+  color: white;
+  cursor: initial;
+  position: absolute;
+  border-radius: 5px;
+  background: #1F1F25;
+  border: 1px solid #9999C3;
+}
+.popup-content-userpage {
+  padding: 20px;
+}
+.userpage-popup-btn {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+.userpage-popup-textor {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 6px;
+}
+.userpage-title {
+  display: flex;
+  align-items: center;
+}
+.userpage-popup-para{
+color: #B2C3FF;
+margin: 5px 0 0 0;
+}
+.userpage-popup-head {
+  margin: 0 0 0px 6px;
+}
+.userpage-popup-createbtn {
+  border: none;
+  width: 285px;
+  padding: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  background: #4F4CFF;
+}
+.userpage-popup-joinbtn {
+  width: 285px;
+  padding: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #5D5D5D;
+}
+.userpage-close-btn {
+  opacity: 1;
+  float: right;
+  color: #FFFF;
+  line-height: 0;
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 100;
+}
+
+.content_rightsidebar {
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 1000;
+  width: 1110px;
+  color: white;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #2D2E36;
+}
+
+.sidebarright {
+  padding: 20px;
+}
+
+.sidebar-close {
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background: none;
+}
+
+input.sidebarright-search_input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  border-radius: 10px;
+  background: #9ea7f024;
+  padding: 12px 12px 12px 22px;
+}
+.sidebarright-user-details {
+  display: flex;
+  align-items: center;
+}
+.sidebarright-section2 {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 0 0;
+  justify-content: space-between;
+}
+img.sidebarright-person-img {
+  width: 45px;
+  padding: 4px;
+  border-radius: 20%;
+  margin: 0 12px 0 5px;
+  background: #FFBF42;
+}
+.sidebarright-user-name {
+  font-weight: 600;
+}
+img.sidebarright-friendsfill {
+  background: #545667;
+  padding: 10px;
+  border-radius: 25px;
+}

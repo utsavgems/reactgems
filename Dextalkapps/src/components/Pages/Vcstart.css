@@ -1,0 +1,111 @@
+.Vcstart-page{
+    color: white;
+    background: #2e303c;
+    width: -webkit-fill-available;
+}
+.Vcstart-header{
+    margin: 15px 15px 15px 15px;
+}
+.left-Vcpage-title{
+    font-weight: 700;
+}
+.header-vcpage-backbtn {
+    width: 145px;
+    height: 48px;
+    border: none;
+    padding: 10px;
+    font-weight: 700;
+    margin: 0 0px 0 0;
+    border-radius: 5px;
+    background: #FF4747;
+}
+.header-vcpage-addpeople {
+    width: 145px;
+    height: 48px;
+    padding: 10px;
+    font-weight: 700;
+    color: #C6CBFF;
+    border-radius:5px;
+    margin: 0 10px 0 0;
+    background: transparent;
+    border: 1px solid grey;
+}
+.header-Vcpage-text {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.vcstart-display-img {
+    width: 70%;
+    height: 580px;
+}
+.vcstart-section-2{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+img.vcstart-endcall-btn {
+    margin: 0px 5px 4px 0px;
+}
+p.vcstart-username-text {
+    top: 100px;
+    left: 330px;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+}
+img.vcstart-iocn.Bluevideoicn{
+    background: #494795;
+}
+img.vcstart-iocn {
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: #3530FF;
+    margin: 20px  15px 15px 15px;
+}
+.vcstart-face-hide-section {
+    width: 70%;
+    height: 574px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    background: #45486024;
+}
+h3.vcstart-face-text-A {
+    top: 260px;
+    left: 750px;
+    display: block;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    border-radius: 100px;
+    background: #3359BC;
+    padding: 50px 65px 50px 65px;
+    box-shadow: #3B3F69 0px 0px 100px 50px;
+}
+.vcstart-Add-2slid-vc {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Vcstartimg-slide-img-2,
+.Vcstartimg-slide-img-1 {
+    margin: 100px 0 80px 0;
+    height: 400px;
+}
+.Vcstartimg-slide1-text1 {
+    top: 200px;
+    left: 155px;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+}
+.Vcstartimg-slide1-text2 {
+    top: 200px;
+    right:636px;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+}

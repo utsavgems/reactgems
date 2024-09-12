@@ -1,0 +1,236 @@
+/* .callpage{
+    width: 185rem;
+  
+} */
+
+.callpage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: rgb(37, 38, 47);
+  background: linear-gradient(
+    180deg,
+    rgba(37, 38, 47, 1) 60%,
+    rgba(46, 48, 60, 1) 50%
+  );
+}
+
+.call-page-background {
+  /* background-image: url('../../Images/your-background-image.png'); 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%; */
+}
+
+.callpage-round1 {
+  position: absolute;
+  right: 350px;
+}
+.callpage-round2 {
+  position: absolute;
+  right: 200px;
+}
+.callpage-round3 {
+  position: absolute;
+  right: 60px;
+}
+.callpage-round4 {
+  position: absolute;
+  left: 350px;
+}
+.callpage-round5 {
+  position: absolute;
+  left: 200px;
+}
+.callpage-round6 {
+  position: absolute;
+  left: 60px;
+}
+
+.round1-bg {
+  /* width: 1100px; */
+  height: 460px;
+}
+
+.round2-bg {
+  /* width: 800px; */
+  height: 460px;
+}
+
+.round3-bg {
+  /* width: 1400px; */
+  height: 460px;
+}
+.round4-bg {
+  /* width: 1100px; */
+  height: 460px;
+}
+
+.round5-bg {
+  /* width: 800px; */
+  height: 460px;
+}
+
+.round6-bg {
+  /* width: 1400px; */
+  height: 460px;
+}
+
+.callpage-section1 {
+  height: auto;
+  display: flex;
+  color: #fff;
+  margin: 70px 0 0 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+.instant-call-head {
+  margin-bottom: 20px;
+}
+
+.callpage-heading-text {
+  display: flex;
+  font-size: 30px;
+  font-weight: 700;
+  align-items: center;
+}
+p.callpage-para-sec-1 {
+  font-size: 18px;
+  text-align: center;
+}
+.call3dicon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.phonenumber-input-callpage {
+  display: flex;
+  align-items: center;
+}
+
+.country-code-callpage {
+  border: none;
+  height: 50px;
+  cursor: pointer;
+  background: #45475a;
+  padding: 0px 15px 0px 20px;
+  border-radius: 8px 0px 0px 8px;
+}
+input#site-search\ callpage-sec2-search:focus-visible,
+.phone-input-callpage:focus-visible,
+.phonenumber-input:focus-visible,
+.country-code-callpage:focus-visible {
+  outline: none;
+}
+.phone-input-callpage {
+  border: none;
+  height: 50px;
+  width: 250px;
+  background: #3b3c4a;
+  padding: 0px 15px 0px 20px;
+  border-radius: 0px 8px 8px 0px;
+}
+button.callpage-Voicecall {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 0 0 0 10px;
+  border-radius: 10px;
+  background: #4a5cff;
+  padding: 15px 30px 15px 30px;
+}
+.phonenumber-input {
+  display: flex;
+  align-items: center;
+}
+p.or-text {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 12px 0px 12px 0px;
+}
+button.callpage-Videocall-btn {
+  height: 50px;
+  width: 450px;
+  border: none;
+  color: #c7caf0;
+  font-weight: 700;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #45475a;
+}
+
+/* SECTION - 2 */
+.callpage-section2 {
+  display: flex;
+  color: white;
+  margin: 100px 0 0 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.callpage-sec2-title {
+  display: flex;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 50px 0 0 0;
+  justify-content: space-evenly;
+}
+.callpage-userdetails {
+  align-items: center;
+  display: flex;
+}
+.sec2-userdetails {
+  display: flex;
+  align-items: center;
+}
+.callpage-search-btn {
+  display: flex;
+  margin: 20px 0 20px 0;
+  justify-content: center;
+}
+.callpage-call-details {
+  justify-content: center;
+  display: flex;
+}
+input#site-search\ callpage-sec2-search {
+  border: none;
+  width: 500px;
+  border-radius: 8px;
+  background: #404352;
+  padding: 10px 0px 10px 10px;
+}
+p.sec2-frd-text {
+  margin: 0px 0px 0 -2px;
+}
+p.sec2-count-text {
+  margin: 0 0 0 -76px;
+}
+.callpage-fluentcallicon-sec2 {
+  margin: 0 0 0 330px;
+}
+hr.sec2-callpage-hr {
+  width: 32%;
+  filter: brightness(0.5);
+  color: grey;
+}
+img.callpage-User-pic-2 {
+  width: 45px;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 0 10px 0 0;
+  background: #404352;
+  border: 1px solid #404352;
+}
+p.callpage-username-2 {
+  width: 82px;
+  padding: 6px;
+  border-radius: 10px;
+  background: #404352;
+  border: 1px solid #404352;
+}
+img.callpage-fluentcallicon{
+    cursor: pointer;
+}

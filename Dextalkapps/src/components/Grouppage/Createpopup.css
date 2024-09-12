@@ -1,0 +1,61 @@
+
+/* POPUP CSS  */
+.popup.userpage {
+    top: 190px;
+    left: 95px;
+    z-index: 9999;
+    color: white;
+    cursor: initial;
+    position: absolute;
+    border-radius: 5px;
+    background: #1F1F25;
+    border: 1px solid #9999C3;
+  }
+  .popup-content-userpage {
+    padding: 20px;
+  }
+  .userpage-popup-btn {
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+  .userpage-popup-textor {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 6px;
+  }
+  .userpage-title {
+    display: flex;
+    align-items: center;
+  }
+  .userpage-popup-para{
+  color: #B2C3FF;
+  margin: 5px 0 0 0;
+  }
+  .userpage-popup-head {
+    margin: 0 0 0px 6px;
+  }
+  .userpage-popup-createbtn {
+    border: none;
+    width: 285px;
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #4F4CFF;
+  }
+  .userpage-popup-joinbtn {
+    width: 285px;
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid #5D5D5D;
+  }
+  .userpage-close-btn {
+    opacity: 1;
+    float: right;
+    color: #FFFF;
+    line-height: 0;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 100;
+  }

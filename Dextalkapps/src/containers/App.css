@@ -1,0 +1,12 @@
+.App {
+  height: 100%;
+  display: flex;
+  color: #333;
+}
+.wallet-container.closed .wallet-content {
+  display: none;
+}
+
+.wallet-container.open .wallet-content {
+  display: block;
+}

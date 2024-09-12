@@ -1,0 +1,97 @@
+.appdetails-section1 {
+    display: flex;
+    margin-top: 30px;
+}
+img.appdetails-logo {
+    width: 100px;
+    border-radius: 60px;
+}
+.appdetails-text-sec1 {
+    margin-left: 20px;
+    justify-content: center;
+    /* text-align: left; */
+    align-items: baseline;
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;
+}
+.appstore-apps-details {
+    top: 0;
+    position: absolute;
+    width: 60%;
+}
+h4.appdetails-logo-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+p.appdetails-team-text {
+    color: #737373;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+p.appdetails-3rdrow {
+    color: #e5e5e5;
+    font-size: 14px;
+
+}
+hr.details-popup-line {
+    opacity: 1;
+}
+.detailspage-verticalline {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.detailspage-imgnumber {
+    font-size: 14px;
+}
+button.detailpage-install-buttons:hover {
+background-color: #1d4ed8;
+}
+button.detailpage-install-buttons {
+    background: blue;
+    padding: 12px;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+button.detailpage-Custom-buttons:hover {
+    background: #404040;
+    color: white;
+}
+button.detailpage-Custom-buttons {
+    background: #262626;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #525252;
+    font-weight: 600;
+    color: #a3a3a3;
+    font-size: 15px;
+    border-radius: 6px;
+}
+p.detailpage-description-text {
+    color: #e5e5e5;
+font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+p.detailpage-description-para {
+    font-size: 15px;
+    color: #e5e5e5;
+margin-bottom: 35px;
+}
+img.appstore-details-leftarrow:hover {
+    cursor: pointer;
+    background: #404040;
+    border-radius: 3px;
+    width: auto;
+    padding: 2px;
+    height: 22px;
+
+}
+img.appstore-details-leftarrow {
+    height: 22px;
+    margin-top: 20px;
+    cursor: pointer;
+}
